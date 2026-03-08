@@ -6,7 +6,7 @@ A sleek, minimal, and responsive collapsible sidebar built as part of the **Elev
 [Click here to view the live project](https://modern-collapsible-sidebar.netlify.app/)
 
 ## 🖼️ Preview
-![Project Screenshot](images/img1.png)
+![Project Screenshot](images/img1.jpg)
 
 ## 📝 Description
 Leon - Creative Digital Agency Template inspired sidebar. This task focuses on creating a dynamic sidebar section that toggles open and closed with smooth animations. It includes a logo placeholder, navigation links with icons, and a fully responsive design that works on all screen sizes.
