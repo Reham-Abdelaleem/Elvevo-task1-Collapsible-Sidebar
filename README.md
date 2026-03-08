@@ -17,6 +17,8 @@ A modern, minimal, and responsive collapsible sidebar built as part of the Elvev
 * **JavaScript** (DOM Manipulation)
 * **Font Awesome** (For Sidebar Icons)
 * **Google Fonts** (Work Sans)
+## Live Demo
+https://leon-digital-agency-template.netlify.app/ 
 
 ## Usage
 Clone or download the repository:
