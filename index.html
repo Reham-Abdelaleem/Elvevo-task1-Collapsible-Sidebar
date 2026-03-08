@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">  
+    <title>ShopZone</title>
+</head>
+<body>
+    <div class="overlay w-100 h-100 opacity-0" id="overlay"></div>
+    <aside class="sidebar d-flex flex-column overflow-hidden" id="sidebar">
+        <!-- Logo Section -->
+        <div class="logo-section mb-3 overflow-hidden d-flex align-items-center gap-3 flex-shrink-0">
+            <div class="logo-icon-wrap fs-6 d-flex justify-content-center align-items-center flex-shrink-0">
+                <i class="fas fa-bag-shopping"></i>
+            </div>
+            <div class="logo-text-wrap d-flex flex-column overflow-hidden flex-shrink-1 opacity-100">
+                <div class="logo-name fw-bold text-uppercase">ShopZone</div>
+                <div class="logo-tag mt-1 text-white">Premium Shopping</div>
+            </div>
+        </div>
+
+        <ul class="nav-links w-100 list-unstyled">
+            <li>
+                <a href="#" class="active fw-medium text-decoration-none d-flex align-items-center w-100 overflow-hidden position-relative">
+                    <i class="fa-solid fa-store fs-6 text-center flex-shrink-0"></i>
+                    <span class="overflow-hidden opacity-100">Store</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fw-medium text-decoration-none d-flex align-items-center w-100 overflow-hidden position-relative">
+                    <i class="fa-solid fa-cart-shopping fs-6 text-center flex-shrink-0"></i>
+                    <span class="overflow-hidden opacity-100">My Cart</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fw-medium text-decoration-none d-flex align-items-center w-100 overflow-hidden position-relative">
+                    <i class="fa-solid fa-box fs-6 text-center flex-shrink-0"></i>
+                    <span class="overflow-hidden opacity-100">Orders</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fw-medium text-decoration-none d-flex align-items-center w-100 overflow-hidden position-relative">
+                    <i class="fa-solid fa-heart fs-6 text-center flex-shrink-0"></i>
+                    <span class="overflow-hidden opacity-100">Wishlist</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="fw-medium text-decoration-none d-flex align-items-center w-100 overflow-hidden position-relative">
+                    <i class="fa-solid fa-user fs-6 text-center flex-shrink-0"></i>
+                    <span class="overflow-hidden opacity-100">Account</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    
+    <button class="toggle-btn d-flex align-items-center justify-content-center border border-0 rounded-circle" id="toggleBtn">
+        <i class="fas fa-chevron-left text-white"></i>
+    </button>
+
+    <main class="main-content">
+        <div class="content-card bg-white rounded-3">
+            <h1 class="fs-2">Welcome to ShopZone!</h1>
+            <p class="fs-6">Discover thousands of products at the best prices. Browse our latest collections, track your orders, and manage your wishlist — all from one place.</p>
+            <p class="fs-6mt-3">Use the sidebar to navigate between the store, your cart, orders, and account settings. On mobile, tap the toggle button to open the menu and start shopping!</p>
+        </div>
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
+</body>
+</html>
