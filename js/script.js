@@ -5,17 +5,14 @@ const navLinks  = document.querySelectorAll('.nav-links a');
 const isMobile = () => window.innerWidth <= 768;
 function toggleSidebar() {
     if (isMobile()) {
-        // Mobile: slide in/out completely
         const isOpen = sidebar.classList.contains('mobile-open');
         sidebar.classList.toggle('mobile-open', !isOpen);
         overlay.classList.toggle('active', !isOpen);
     } else {
-        // Desktop: collapse to icon-only
         sidebar.classList.toggle('collapsed');
     }
 }
 toggleBtn.addEventListener('click', toggleSidebar);
-// Close on overlay click (mobile)
 overlay.addEventListener('click', () => {
     sidebar.classList.remove('mobile-open');
     overlay.classList.remove('active');
