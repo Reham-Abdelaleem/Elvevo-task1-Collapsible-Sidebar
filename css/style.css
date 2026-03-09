@@ -84,7 +84,7 @@ body {
     color: #94a3b8;
     border-radius: 12px;
     white-space: nowrap;
-    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
     font-size: 14px;
 }
 .nav-links a::before {
@@ -198,7 +198,6 @@ body {
     opacity: 1;
     visibility: visible;
 }
-
 /* Main Content */
 .main-content {
     margin-left: 260px;
@@ -223,22 +222,18 @@ body {
 }
 /* Responsive */
 @media (max-width: 768px) {
-    /* Sidebar hides off-screen by default on mobile */
     .sidebar {
         width: 260px !important;
         transform: translateX(-260px);
         transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
     }
-    /* Collapsed on mobile still hides fully */
     .sidebar.collapsed {
         width: 260px !important;
         transform: translateX(-260px);
     }
-    /* Slide in when open */
     .sidebar.mobile-open {
         transform: translateX(0) !important;
     }
-    /* Restore full content when open on mobile */
     .sidebar.mobile-open .logo-text-wrap,
     .sidebar.collapsed.mobile-open .logo-text-wrap {
         opacity: 1 !important;
@@ -274,16 +269,14 @@ body {
     }
     .toggle-btn i {
         font-size: 15px !important;
-        transform: rotate(180deg); /* arrow points right = sidebar is closed */
+        transform: rotate(180deg); 
     }
-    /* When sidebar is open, move button beside it and flip arrow */
     .sidebar.mobile-open + .toggle-btn {
         left: 268px !important;
     }
     .sidebar.mobile-open + .toggle-btn i {
         transform: rotate(0deg) !important;
     }
-    /* Main content fills full width on mobile */
     .main-content {
         margin-left: 0 !important;
         padding: 80px 16px 24px;
