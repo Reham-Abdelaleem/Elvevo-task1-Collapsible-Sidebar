@@ -23,7 +23,6 @@ navLinks.forEach(link => {
         e.preventDefault();
         navLinks.forEach(l => l.classList.remove('active'));
         this.classList.add('active');
-
         if (isMobile()) {
             sidebar.classList.remove('mobile-open');
             overlay.classList.remove('active');
